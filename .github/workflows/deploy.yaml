@@ -16,4 +16,4 @@ jobs:
     - name: Deploy to server
       run: |
         cd /home/gracilin/builder
-        bash deploy-react.sh
+        bash deploy-react.sh "$(echo "${{ github.ref }}" | awk -F'/' '{print $3}')"
