@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>My User Form</h1>
+      <h1>Sample User Form</h1>
       <form onSubmit={handleSubmit}>
         <label>
           Name:
@@ -27,7 +27,7 @@ function App() {
           <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
         </label>
         <br />
-        <button type="submit">kubmit</button>
+        <button type="submit">Submit</button>
       </form>
     </div>
   );
