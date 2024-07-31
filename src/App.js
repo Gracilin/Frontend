@@ -27,7 +27,7 @@ function App() {
           <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
         </label>
         <br />
-        <button type="submit">login</button>
+        <button type="submit">Submit</button>
       </form>
     </div>
   );
